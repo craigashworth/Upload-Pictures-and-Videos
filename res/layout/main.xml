@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/logo" />
+
+    <Button
+        android:id="@+id/uploadB"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:text="@string/start"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"/>
+
+    <!-- These features have not been implemented yet
+    <Button    
+        android:id="@+id/mapB"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:text="View Map"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/naoB"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:text="NAO Robot Control"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/arB"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:text="Augmented Reality"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/settingB"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:text="Settings"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+    -->
+
+</LinearLayout>

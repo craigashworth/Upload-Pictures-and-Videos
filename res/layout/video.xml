@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_vertical" >
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/video_button_layout_ui" />
+
+    <TextView
+        android:id="@+id/video_clock_ui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/video_button_layout_ui"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/playRecordingBtn"
+            android:layout_width="80dp"
+            android:layout_height="78dp"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:contentDescription="@string/play_recording"
+            android:scaleType="fitXY"
+            android:src="@drawable/start_play_button" />
+
+        <ImageButton
+            android:id="@+id/bgnBtn"
+            android:layout_width="80dp"
+            android:layout_height="78dp"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:contentDescription="@string/start_recording"
+            android:scaleType="fitXY"
+            android:src="@drawable/start_record_button" />
+
+        <ImageButton
+            android:id="@+id/returnToForm"
+            android:layout_width="82dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:contentDescription="@string/return_to_form"
+            android:scaleType="fitXY"
+            android:src="@drawable/upload_arrow" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/media_clock_ui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/button_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/media_clock_ui"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/media_clock_ui"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/playRecordingBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbackground"
+                android:contentDescription="@string/play_recording"
+                android:src="@drawable/disabled_play_button" />
+
+            <TextView
+                android:id="@+id/text_button_Play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/play"
+                android:textColor="@android:color/white"
+                android:textSize="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/media_clock_ui"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bgnBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbackground"
+                android:contentDescription="@string/start_recording"
+                android:src="@drawable/start_record_button" />
+
+            <TextView
+                android:id="@+id/text_button_Rec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/record"
+                android:textColor="@android:color/white"
+                android:textSize="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Upld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/media_clock_ui"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/returnToForm"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbackground"
+                android:contentDescription="@string/return_to_form"
+                android:src="@drawable/upload_arrow" />
+
+            <TextView
+                android:id="@+id/text_button_Upld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/upload"
+                android:textColor="@android:color/white"
+                android:textSize="50dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

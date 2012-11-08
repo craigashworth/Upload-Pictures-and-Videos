@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/uploadMenu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/videoButton"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/videocambuttonbackground"
+            android:background="@drawable/buttonbackground"/>
+
+        <ImageButton
+            android:id="@+id/cameraButton"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/camerabackground"
+            android:background="@drawable/buttonbackground"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/audioButton"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/audiobuttonbackground"
+            android:background="@drawable/buttonbackground"/>
+
+        <ImageButton
+            android:id="@+id/commentButton"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/textnotebuttonbackground"
+            android:background="@drawable/buttonbackground" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gpsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonbackground"
+        android:text="@string/gps"
+        android:textColor="@android:color/white"
+        android:textSize="50dp" />
+
+</LinearLayout>

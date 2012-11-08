@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+   	android:background="@drawable/background">
+    
+    <org.mapsforge.android.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonBar"
+        android:text="@string/hello" />
+    
+    <LinearLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+        
+        <Button 
+            android:id="@+id/tutorial"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+	        android:layout_height="50dp"
+	        android:layout_weight="1.0"
+	        android:text="@string/tutorial"
+	        android:textColor="@android:color/black"
+            />
+	    <Button
+	        android:id="@+id/findPositionButton"        
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="100dp"
+	        android:layout_height="50dp"
+	        android:layout_weight="1.0"
+	        android:onClick="findPositionButton"
+	        android:text="@string/find_position"
+	        android:textColor="@android:color/black"
+	        />
+	
+	    <Button 
+	        android:id="@+id/Update_CoordinatesButton"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="100dp"
+	        android:layout_height="50dp"
+	        android:layout_weight="1.0"
+	        android:text="@string/update_coordinates" 
+	        android:textColor="@android:color/black"/>
+	        
+	    <Button 
+	        android:id="@+id/Clear_Points_Button"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="100dp"
+	        android:layout_height="50dp"
+	        android:layout_weight="1.0"
+	        android:text="@string/clear_points"
+	        android:textColor="@android:color/black"/>
+	    
+	    <Button
+	        android:id="@+id/Exit"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="100dp"
+	        android:layout_height="50dp"
+	        android:layout_weight="1.0"
+	        android:text="@string/exit" 
+	        android:textColor="@android:color/black"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/logoBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" >
+	    
+        <ImageView
+	        android:id="@+id/airForceWings"
+	        android:background="@drawable/usaf_logo"
+	        android:layout_width="50dp"
+	        android:layout_height="35dp" />
+        
+        <ImageView
+	        android:id="@+id/tecedgeLogoText"
+	        android:background="@drawable/tecedgetransparent"
+	        android:layout_width="150dp"
+	        android:layout_height="35dp" />
+        
+        <ImageView
+	        android:id="@+id/discoveryLabText"
+	        android:background="@drawable/discoverylablogotransparent"
+	        android:layout_width="100dp"
+	        android:layout_height="35dp" />
+        
+        <ImageView
+	        android:id="@+id/afrl_logo"
+	        android:background="@drawable/afrl_logo_transparent"
+	        android:layout_width="50dp"
+	        android:layout_height="35dp" />
+        
+    </LinearLayout>
+    
+    <view
+        class="sate2012.avatar.android.Compass"
+        android:id="@+id/mycompassview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+</RelativeLayout>

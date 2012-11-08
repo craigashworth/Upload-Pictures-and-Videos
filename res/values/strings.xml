@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">AVATAR Main Menu</string>
+    <string name="app_name">AVATAR</string>
+    <string name="play_recording">Play Recording</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="return_to_form">Return to Form</string>
+    <string name="item_separator">_***_</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_email">EmailActivity</string>
+    <string name="title_mail_activity">MailActivity</string>
+    <string name="title_mail_sender_activity">MailSenderActivity</string>
+    <string name="et_subject">Subject</string>
+    <string name="et_body">Email Body</string>
+    <string name="et_addl_address">Additional Email Addresses</string>
+    <string name="thank_submission">Thank you for your submission.</string>
+    <string name="send_failed">Send failed. Please try again.</string>
+    <string name="send">Send</string>
+    <string name="type_picture">Photo</string>
+    <string name="type_video">Video</string>
+    <string name="type_audio">Audio</string>
+    <string name="type_comment">Comment</string>
+    <string name="type_android">Android</string>
+    <string name="enterDeviceId">Enter Device Name</string>
+    <string name="name">Name</string>
+    <string name="sendEmail">  Send Email  </string>
+    <string name="nameOfLoc">Name of Location or Item of Interest</string>
+    <string name="urlOf">The URL of uploaded media</string>
+    <string name="urlWillBeHere">The URL will be displayed hsere</string>
+    <string name="description">Description</string>
+    <string name="textDescr">Text Description</string>
+    <string name="start">--Press to enter the MapView--</string>
+    <string name="pic">Take a Picture</string>
+    <string name="uploadPic">Upload Photo</string>
+    <string name="back">  Return to main screen  </string>
+    <string name="uploadMenu">Choose the media you wish to share</string>
+    <string name="gps">---Send GPS Location---</string>
+    <string name="play">Play</string>
+    <string name="record">Record</string>
+    <string name="upload">Upload</string>
+    <string name="FindPosition">Find Position</string>
+    <string name="find_position">Find Position</string>
+    <string name="Tutorial">Directions</string>
+    <string name="tutorial">Directions</string>
+    <string name="Exit">Exit</string>
+    <string name="Clear_Points_Button">Clear Points</string>
+    <string name="video_button_description">Record a video to upload.</string>
+    <string name="camera_button_description">Take a picture to upload.</string>
+    <string name="microphone_button_description">Record audio to upload.</string>
+    <string name="comment_button_description">Write a comment to upload.</string>
+    <string name="cancel_button_description">Cancel the upload process.</string>
+	<string name="update_coordinates">Update Coordinates</string>
+	<string name="clear_points">Clear points</string>
+	<string name="exit">Exit</string>
+</resources>

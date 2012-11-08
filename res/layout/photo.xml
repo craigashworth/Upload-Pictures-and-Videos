@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/ibTakePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:src="@drawable/camerabackground"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/ivReturnedPicture"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name" />
+
+    <ImageButton
+        android:id="@+id/upload_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbackground"
+		android:src="@drawable/upload_arrow"
+        android:textSize="50dp" />
+
+</LinearLayout>
